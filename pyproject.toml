@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pygenius"
+version = "0.1.0"
+description = ""
+authors = ["Michał Freliszka <mfreliszka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "^0.27.6"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
